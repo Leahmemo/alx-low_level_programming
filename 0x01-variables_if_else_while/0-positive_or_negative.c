@@ -1,9 +1,9 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
 
 /**
- * main - prints id number is positive, negative or zero
+ * main - prints if the number is positive, negative or zero
  * Return: Always 0
  */
 int main(void)
