@@ -4,7 +4,7 @@
 
 /**
  * main - prints id number is positive, negative or zero
- 0
+0
  * Return: Always 0
  */
 int main(void)
@@ -25,6 +25,6 @@ int main(void)
 	else
 	{
 		printf("%d is negative\n",n);
-	}	
+	}
 	return (0);
 }
