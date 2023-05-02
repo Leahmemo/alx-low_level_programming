@@ -8,9 +8,9 @@ include "main.h"
  */
 void swap_int(int *a, int *b)
 {
-	int p = *a;
+	int p;
 
 	*a = *b;
-	*b = *a
-	*b = p;
+	*b = *a;
+	p = *a
 }
