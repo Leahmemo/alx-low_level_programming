@@ -12,24 +12,20 @@ int main(int argc, char *argv[])
 {
 	int cents, coins;
 
-	/* check number of arguments */
 	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
 
-	/* parse argument */
 	cents = atoi(argv[1]);
 
-	/* check for negative cents */
 	if (cents < 0)
 	{
 		printf("0\n");
 		return (0);
 	}
 
-	/* count coins */
 	coins = 0;
 
 	while (cents >= 25)
