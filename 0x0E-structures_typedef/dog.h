@@ -4,7 +4,6 @@
 /**
  * struct dog - Represents a dog with its name, age, and owner
  * init_dog - Initializes the variables to type struct dog
- * @d: pointer to the struct dog to be initialised
  * @name: Pointer to the name of the dog
  * @age: Age of the dog
  * @owner: Pointer to the owner's name
